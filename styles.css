@@ -138,15 +138,20 @@ section {
 }
 
 .input-fields {
-    display: flex;
-    flex-direction: column;
-    margin-left: 100px;
-    padding-left: 50px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    margin-left: 750px;
     margin-top: 100px;
 }
 
 .input-fields a{
     margin-left: 50px;
+    margin: 20px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
 }
 
 .text input {
@@ -155,6 +160,16 @@ section {
     width: 300px;
     background-color: rgb(151, 210, 212);
     border-radius: 10px;
+}
+
+/*keep me login */
+.kml {
+    margin: 10px;
+}
+
+/* recovery password */
+.rp {
+    margin-left: 15px;
 }
 
 .sign input {
@@ -168,23 +183,41 @@ section {
 }
 
 section li {
-    width: 300px;
+    width: 350px;
     text-align: center;
 }
 
 i {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 35px;
     padding-top: 10px;
     padding-bottom: 10px;
     margin: 12px;
 }
 
-.fa-brands fa-apple {
-    color: blue;
+.fa-apple {
+    color: black;
+    background-color: rgba(128, 128, 128, 0.515);
+    box-shadow: 0 0 5px 0.5px aliceblue;
+    border-radius: 5px;
 }
 
-span:after, span:before{
-    content:"  \00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0  ";
+.fa-google {
+    color: red;
+    background-color: aliceblue;
+    box-shadow: 0 0 5px 0.5px grey;
+    border-radius: 5px;
+}
+
+.fa-facebook {
+    color: blue;
+    background-color: aliceblue;
+    box-shadow: 0 0 5px 0.5px grey;
+    border-radius: 5px;
+}
+
+/* style for "or continue with" */
+.continue:after, .continue:before{
+    content:"  \00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0  ";
     text-decoration:line-through;
 }
